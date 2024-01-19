@@ -27,6 +27,7 @@ const commentSchema = new mongoose.Schema({
   comment: String,
 });
 
+// change add this comment
 const productSchema = new mongoose.Schema({
   pid: String,
   name: String,
