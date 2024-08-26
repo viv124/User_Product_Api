@@ -3,14 +3,14 @@ const connectDb=require('./config/connectDb');
 const UseRoute=require("./routes/UserRouter");
 const ProdRouter=require("./routes/ProdRouter");
 const bodyParser=require("body-parser");
-const mongoose=require('mongoose');
+// const mongoose=require('mongoose');
 
 
-async function main() {
-    await connectDb();
-  }
+// async function main() {
+//     await connectDb();
+//   }
   
-main();
+// main();
 const app=express();
 app.use(bodyParser.json());
 app.use('/api',UseRoute);

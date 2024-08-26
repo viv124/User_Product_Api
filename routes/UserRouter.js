@@ -28,7 +28,7 @@ const validatePurchase = (req, res, next) => {
   };
 
 router.get('/test', (req, res) => {
-    res.send('Test route working');
+    res.send('Anis and Jigs Is free 256 MB');
 });
 router.post('/create',uservalidation,useController.createUser);
 router.get('/user',useController.getUser);
